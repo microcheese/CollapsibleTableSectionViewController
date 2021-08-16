@@ -24,15 +24,15 @@ let package = Package(
              path: "CollapsibleTableSectionViewController"),
              exclude: [
                  "Info.plist"
-             ]
-          )
+             ],
+          ),
           .testTarget(
              name: "CollapsibleTableSectionViewControllerTests",
              dependencies: ["CollapsibleTableSectionViewControllerTests"]),
              exclude: [
                  "Info.plist"
-             ]
-          )
+             ],
+          ),
      ]
 )
  
