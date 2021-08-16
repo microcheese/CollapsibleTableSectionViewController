@@ -21,7 +21,7 @@ let package = Package(
          .target(
              name: "CollapsibleTableSectionViewController",
              dependencies: [],
-             path: "CollapsibleTableSectionViewController"
+             path: "CollapsibleTableSectionViewController",
              exclude: [
                  "Info.plist"
              ]),
